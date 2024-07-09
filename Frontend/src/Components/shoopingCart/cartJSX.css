@@ -1,0 +1,96 @@
+.image{
+    height:100px;
+    padding:auto;
+}
+
+@media (max-width : 400px) {
+    .checkOut{
+        width:150px !important
+    }
+    .externel{
+        width:auto !important;
+        padding-left: 0px;
+        }
+        .image{
+            height:90px !important;
+            padding-Right: 50px !important;
+            padding-left: 0px;
+            margin-left: 0px;
+        }
+        .datail{
+         
+            padding-top: 5px!important;
+            padding-left: 40px !important;
+        }
+}
+@media (min-width :400px) and (max-width : 499px) {
+    .externel{
+        width:auto !important;
+       
+        }
+        .image{
+            padding-left: 10px !important;
+            padding-Right: 50px !important;
+            height:100px !important;
+        }
+        
+        .detail{
+            padding-top: 10px!important;
+            padding-left: 20px !important;
+        }
+}
+@media (min-width : 500px) and (max-width:800px){
+    .externel{
+        width:auto !important;
+        
+        }
+        .image{
+            height:100px !important;
+            padding-left: 20px !important;
+        }
+        .detail{
+            padding-top: 10px!important;
+            padding-left: 20px !important;
+        }
+        
+}
+@media (min-width : 801px) and (max-width:999px){
+    .externel{
+        width:auto !important;
+        padding:10px!important;
+        }
+        .image{
+            height:110px !important;
+            padding-left: 30px !important;
+        }
+        .detail{
+            padding-top: 10px!important;
+            padding-left: 20px !important;
+        }
+        
+}
+@media (min-width : 1000px) {
+    .externel{
+        width:auto !important;
+        padding:20px!important;
+        }
+        .image{
+            height:120px !important;
+            padding-left: 80px !important;
+        }
+        .detail{
+            padding-top: 10px!important;
+            padding-left: 20px !important;
+        }
+        
+}
+@media (max-width :700px) {
+    .displayLarge{
+        display:none !important;
+    }
+}
+@media (min-width :701px)  {
+    .displaySmall{
+        display:none !important;
+    }
+}

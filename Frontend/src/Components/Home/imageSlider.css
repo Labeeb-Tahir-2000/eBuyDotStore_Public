@@ -1,0 +1,22 @@
+@media (max-width: 650px) {
+    .imageSliderLarge {
+        display: none;
+    }
+    .saleSliderLarger{
+        display: none;
+    }
+    
+  }
+  @media (min-width: 650px) {
+    .imageSliderSmall {
+        display: none;
+    }
+   .saleCardSmall{
+       display: none;
+   }
+   .myAllProducts{
+   
+    padding-Right:10% !important;
+    padding-Left:12.5% !important;
+}
+  }

@@ -1,0 +1,56 @@
+@media (max-width: 500px) {
+    .myTable{
+      font-size: 9px !important;
+      background: #3af83a !important ;
+    }
+    .toNonDisplay{
+      display:none
+    }
+   }
+   @media (max-width: 380px) {
+    .myTable{
+      font-size: 8px !important;
+      background: #3af83a !important ;
+    }
+    .toNonDisplay{
+      display:none
+    }
+   }
+   @media (min-width: 500px) and (max-width: 700px) {
+    .myTable{
+      font-size: 10px !important;
+      background: #3af83a !important ;
+    }
+   }
+   @media (min-width: 700px) and (max-width: 800px) {
+    .myTable{
+      font-size: 12px !important;
+      background: #3af83a !important ;
+    }
+   }
+   @media (min-width: 800px) and (max-width: 1100px) {
+    .myTable{
+      font-size: 15px !important;
+      background: #3af83a !important ;
+    }
+   }
+   @media (min-width: 1100px) {
+    .myTable{
+      font-size: 18px !important;
+      background: #3af83a !important ;
+    }
+   }
+   @media (min-width: 100px) {
+    .myFilterBar{
+      background:#F57224 ;
+      color:white
+    }
+    .myTable{
+      background: white  !important;
+      padding: 0px !important;
+      margin:0px !important;
+      
+     
+    }
+   }
+   

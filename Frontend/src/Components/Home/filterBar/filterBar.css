@@ -1,0 +1,128 @@
+caption{
+  font-weight:bold !important;
+}
+
+@media (min-width:576px) and (max-width:600px) {
+  caption{
+    font-size: 10px !important;
+  } 
+}
+@media (min-width:601px) and (max-width:699px) {
+  caption{
+    font-size: 11px !important;
+  } 
+}
+@media (min-width:700px) and (max-width:819px){
+  
+  caption{
+    font-size: 12px !important;
+  }
+}
+@media (min-width:820px) and (max-width:900px){
+  
+  caption{
+    font-size: 13px !important;
+  }
+}
+@media (min-width:901px) {
+  
+  caption{
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width:369px)  {
+  .cetegoryFilterBar{
+    padding-right:0% !important;
+    padding-left:3% !important;
+ 
+   }
+   .filterBarHeading{
+ 
+    padding-left:  9px !important;
+    padding-right:  0px !important;
+  }
+ 
+}
+  @media (min-width:370px) and (max-width:440px) {
+    .cetegoryFilterBar{
+     padding-right:0% !important;
+     padding-left:6% !important;
+
+    }
+    .filterBarHeading{
+ 
+      padding-left:  14px !important;
+      padding-right:  0px !important;
+    }
+  }
+  @media (min-width:441px) and (max-width:575px) {
+    .cetegoryFilterBar{
+     padding-right:0% !important;
+     padding-left:10% !important;
+
+    }
+    .filterBarHeading{
+ 
+      padding-left:  17px !important;
+      padding-right:  5px !important;
+    }
+  }
+  @media (min-width:576px) and (max-width:749px) {
+    .outerCetegoryFilterBar{
+     padding:0px !important;
+     margin:0px !important;
+     left:0px;
+    }
+    .cetegoryFilterBar{
+      left:0px;
+      padding:0px !important;
+      margin:0px !important;
+     }
+     .filterBarHeading{
+     
+      padding-left:  0px !important;
+      padding-right:10px !important; ;
+    }
+     
+  }
+
+  @media (min-width:750px) and (max-width:1000px) {
+    .cetegoryFilterBar{
+     padding-right:2% !important;
+     padding-left:5% !important;
+      margin-top: 0.5% !important;
+      
+    }
+    
+    .filterBarHeading{
+      margin-top: 2% !important;
+      padding-left:  25px !important;
+      padding-right:15px !important; ;
+    }
+  }
+  @media (min-width:1001px) {
+    .cetegoryFilterBar{
+      margin-top: 0.5% !important;
+     padding-right:0px !important;
+     padding-left:7% !important;
+    }
+    .filterBarHeading{
+      margin-top: 2% !important;
+      padding-left:  50px !important;
+      padding-right:40px !important; ;
+    }
+  }
+  @media (min-width:1301px) {
+    .cetegoryFilterBar{
+    
+     padding-left:9% !important;
+    }
+    .filterBarHeading{
+    
+      padding-left:  100px !important;
+      padding-right:90px !important; ;
+    }
+  }
+  
+

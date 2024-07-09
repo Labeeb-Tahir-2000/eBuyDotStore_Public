@@ -1,0 +1,166 @@
+
+.flex-container{
+  display : flex;
+  justify-content: space-between;
+}
+
+.select option { 
+  color: #6e6e6e;
+  font-size: 15px;
+
+  padding: 0px !important;
+ }
+
+.select {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  color: #777777 !important;
+ 
+  font-size: 15px;
+  padding:5px !important;
+ text-decoration: none !important;
+
+ margin-bottom:3px !important;
+ margin-top:7px !important;
+ border:1px solid black!important;
+
+ 
+ }
+
+.select:focus  {
+  color: #666666 !important;
+
+  font-size: 15px;
+  padding: none !important;
+
+ box-shadow: none !important;
+ margin-bottom:3px !important;
+ margin-top:7px !important;
+ border:1px solid black!important;
+
+
+}
+
+
+/*=== 4. Main Form ===*/
+
+.my-main-login-form {
+  position: relative;
+}
+.form-control {
+
+  padding-left: 7px !important;
+}
+
+
+.login-group {
+  background: #ffffff;
+  color: #999999;
+  border-radius: 8px;
+  padding: 10px 10px;
+  width: 100%
+}
+
+/*=== 5. Login Button ===*/
+.login-button {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  background: #406af5;
+  color: #f8f8f8;
+  padding: 11px 0;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  border: 5px solid #efefef;
+  border-radius: 50%;
+  transition: all ease-in-out 500ms;
+}
+.login-button:hover {
+  color: #000000;
+  transform: rotate(450deg);
+}
+.login-button.clicked {
+  color: #000000;
+}
+
+/*=== 7. Form - Main Message ===*/
+.login-form-main-message {
+  background: #ffffff;
+  color: #999999;
+  border-left: 3px solid transparent;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  height: 0;
+  padding: 0 20px 0 17px;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+
+/*=== 9. Misc ===*/
+.logo {
+  padding: 15px 0;
+  font-size: 40px;
+  color: #868686;
+  font-weight: bold;
+}
+@media (max-width: 750px) {
+ 
+  .my-login-form-1{
+    width:300px !important;
+  }
+ }
+ @media (max-width: 400px) {
+   .label{
+     font-size: small;
+     font-weight: bold;
+   }
+ }
+
+@media (max-width: 380px) {
+
+ 
+ .my-main-login-form{
+  width:290px !important;
+
+  margin-right: 0px !important;
+  padding:0px !important
+ }
+ .my-text-center{
+   padding-top: 4px !important;
+ margin: 0px !important;
+  padding-left:40px !important;
+  padding-right: 0px;
+ }
+}
+@media (max-width: 350px) {
+ 
+ 
+  .my-main-login-form{
+   width:300px !important;
+  
+   margin-right: 0px !important;
+   padding:0px !important
+  }
+  .my-text-center{
+    padding-top: 4px !important;
+  margin: 0px !important;
+   padding-left:10px !important;
+   padding-right: 0px;
+  }
+ }
+@media (max-height: 700px) {
+ 
+  .my-text-center{
+    padding-top: 3px !important;
+  }
+ }
+ @media (max-width: 380px) {
+  input{
+ font-size:15px !important;
+  }
+
+ }
+ 

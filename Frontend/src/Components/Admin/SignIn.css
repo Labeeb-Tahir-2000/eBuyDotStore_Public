@@ -1,0 +1,302 @@
+
+html,
+body {
+ 
+    font-family: Roboto ,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif!important;
+
+}
+.flex-container{
+  display : flex;
+  justify-content: space-between;
+}
+.form-group-select{
+ 
+ padding: none !important;
+  border-bottom: 2px solid #efefef;
+  position: relative;
+}
+select option { 
+  color: #6e6e6e;
+  font-size: 15px;
+ 
+  padding: 0px !important;
+ }
+
+select {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  color: #999999;
+  font-weight: bold;
+  font-size: 20px;
+  padding: none !important;
+ text-decoration: none !important;
+ box-shadow: none !important;
+ margin-bottom:3px !important;
+ margin-top:7px !important;
+ border:none !important;
+ border-color: none !important;
+ text-decoration-color:none !important;
+ }
+
+select:focus  {
+  color: #6e6e6e !important;
+  font-weight: bold;
+  font-size: 20px;
+  padding: none !important;
+ text-decoration: none !important;
+ box-shadow: none !important;
+ margin-bottom:3px !important;
+ margin-top:7px !important;
+ border:none !important;
+ border-color: none !important;
+ text-decoration-color:none !important;
+}
+.pic{
+  border-color:#777777;
+  color:red;
+  margin-top:8px;
+}
+/*=== 2. Anchor Link ===*/
+a {
+  color: #aaaaaa;
+  transition: all ease-in-out 200ms;
+}
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+/*=== 4. Main Form ===*/
+.login-form-1 {
+  max-width: 350px;
+  border-radius: 5px;
+  display: inline-block;
+  
+}
+.main-login-form {
+  position: relative;
+}
+.form-control {
+
+  padding-left: 7px !important;
+}
+.login-form-1 .form-control {
+  width:100%;
+  border: 0;
+  box-shadow: 0 0 0;
+  border-radius: 0;
+  background: transparent;
+  color: #6e6e6e;
+  padding: 10px 0px;
+  font-weight: 600;
+  height:auto;
+  font-size: 17px !important;
+}
+.login-form-1 .form-control::-webkit-input-placeholder {
+  color: #a8a8a8;
+  font-size: 18px !important;
+  
+}
+
+.login-form-1 .form-group {
+  margin-right: 15px !important;
+  margin-bottom: 0;
+  border-bottom: 2px solid #efefef;
+  padding-right: 10px;
+  position: relative;
+}
+.login-form-1 .form-group:last-child {
+  border-bottom: 0;
+}
+.login-group {
+  background: #ffffff;
+  color: #999999;
+  border-radius: 8px;
+  padding: 10px 25px;
+  width: 100%
+}
+.login-group-checkbox {
+  padding: 5px 3px ;
+}
+/*=== 5. Login Button ===*/
+.login-form-1 .login-button {
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  background: #FFA121;
+  color: #f8f8f8;
+  padding-top: 10px ;
+  padding-bottom: 11px ;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  border: 5px solid #efefef;
+  border-radius: 50%;
+  transition: all ease-in-out 500ms;
+}
+.login-form-1 .login-button:hover {
+  color: #000000;
+  transform: rotate(450deg);
+}
+.login-form-1 .login-button.clicked {
+  color: #000000;
+}
+
+/*=== 6. Form Invalid ===*/
+label.form-invalid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  display: block;
+  margin-top: -25px;
+  padding: 7px 9px;
+  background: #777777;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 11px;
+}
+label.form-invalid:after {
+  top: 100%;
+  right: 10px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: transparent;
+  border-top-color: #777777;
+  border-width: 6px;
+}
+/*=== 7. Form - Main Message ===*/
+.login-form-main-message {
+  background: #ffffff;
+  color: #999999;
+  border-left: 3px solid transparent;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  height: 0;
+  padding: 0 20px 0 17px;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+/*=== 8. Custom Checkbox & Radio ===*/
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label{
+  position: relative;
+ 
+  padding-left: 54px;
+  padding-top: 1px;
+  padding-right: 3px !important;
+  cursor: pointer;
+}
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before{
+  content: '';
+  position: absolute;
+  padding-right: 7px !important;
+
+  top: 2px;
+  left: 30px;
+  width: 17px;
+  height: 17px;
+  border: 0px solid #aaa;
+  background: #f0f0f0;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  position: absolute;
+  color: #555555;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+
+
+
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before,
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted #f6f6f6;
+}
+
+/*=== Customization ===*/
+/* radio aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  border-radius: 3px;
+}
+
+/* selected mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  
+  top: 0;
+  left: 32px;
+  font-size: 14px;
+}
+
+/*=== 9. Misc ===*/
+.logo {
+  padding: 15px 0;
+  font-size: 40px;
+  color: #868686;
+  font-weight: bold;
+}
+.etc-login-form{
+  margin-top:12px;
+  padding-left: 13px;
+}
+@media (max-width: 650px) {
+ 
+  .login-form-1{
+    width:300px !important;
+  }
+ }
+@media (max-width: 380px) {
+ .text-center{
+ padding:2px !important;
+ }
+ .login-form-1{
+   width:250px !important;
+ }
+ .text-center{
+   padding-top: 4px !important;
+ }
+}
+@media (max-height: 700px) {
+ 
+  .text-center{
+    padding-top: 2px !important;
+  }
+ }
+ @media (max-width: 380px) {
+  .login-form-1 .form-control{
+ font-size:15px !important;
+  }
+  .login-form-1 .form-control::-webkit-input-placeholder {
+    color: #a8a8a8;
+    font-size: 16px !important;
+    
+  }
+ }
+ 

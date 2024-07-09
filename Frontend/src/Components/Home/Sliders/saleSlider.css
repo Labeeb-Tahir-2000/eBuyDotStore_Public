@@ -1,0 +1,16 @@
+@media (max-width : 900px) {
+    .saleCardStyle{
+        padding-right: 5% !important;
+    }
+    .saleCardStyleOuter{
+        padding-left: 5% !important;
+    }
+}
+@media (max-width : 700px) {
+    .saleCardStyle{
+        padding-right:4% !important;
+    }
+    .saleCardStyleOuter{
+        padding-left: 4% !important;
+    }
+}

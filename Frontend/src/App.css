@@ -1,0 +1,14 @@
+body{
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif!important;
+
+}
+@media (min-width: 992px) {
+    .outer{
+        margin-top:86px;
+    }
+   }
+   @media (max-width: 991px) {
+     .outer{
+         margin-top:55px;
+     }
+    }

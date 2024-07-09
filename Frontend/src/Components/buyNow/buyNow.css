@@ -1,0 +1,181 @@
+.myAddressBook{
+    max-height:230px !important
+
+      }
+.shippingDetails{
+    background:rgb(255, 170, 0);
+    color:white;
+    padding:10px 0px;
+    width:370px;
+    border-radius:10%
+}
+.goToHome{
+    background:rgb(255, 170, 0);
+    color:white;
+    padding:50px 0px;
+    width:270px;
+    border-radius:10%;
+    text-decoration: none !important;
+}
+
+@media (max-width : 410px)  {
+    .shippingDetails h5{
+        font-size: 15px !important;
+    }  
+    .shippingDetails p{
+        font-size: 10px !important;
+    } 
+    .shippingDetails{
+    width:240px !important;
+    }
+    .shippingDetails h4{
+        font-size: 16px !important;
+    } 
+}
+  
+
+@media (max-width : 385px)  {
+    .confirmOrder{
+        width:170px !important
+    }
+    .myAddressBook{
+        position:absolute;
+        top:0px
+    
+    }
+    .myCart{
+        position:absolute;
+        top:520px !important
+    }
+    .outSide{
+    
+        padding-top: 20px !important
+        }
+        
+      
+}
+
+@media (min-width : 385px)  {
+    .myAddressBook{
+        position:absolute;
+        top:0px
+    
+    }
+    .myCart{
+        position:absolute;
+        top:500px
+    }
+    .goToHome{
+       
+        width:370px;
+      
+    }
+    .outSide{
+    
+        padding-top: 40px !important
+        }
+}
+@media (min-width : 715px) and (max-width:750px){
+    .pendingOrder{
+        font-size: 15px !important;
+        }
+        
+}
+@media (min-width : 700px) and (max-width:714px){
+    .pendingOrder{
+        font-size: 14px !important;
+        }
+        
+}
+@media (min-width : 595px) and (max-width:640px){
+    .pendingOrder{
+        font-size: 15px !important;
+        }
+        
+}
+@media (min-width : 576px) and (max-width:594px){
+    .pendingOrder{
+        font-size: 14px !important;
+        }
+        
+}
+@media (min-width : 576px) and (max-width:700px)  {
+  .myOrderDetails{
+   padding:12px 1px 10px 2px !important;
+  }
+  .myOrderDetailsAndAddress{
+      margin-left: 1px !important;
+      margin-right: 1px !important;
+  }
+  .orderDetailHeading{
+    padding-left: 0px !important;
+    padding-right: 1px !important;
+  }
+}
+@media (min-width : 576px)  {
+    .myAddressBook{
+        position:absolute;
+        top:0px
+    
+    }
+    .myCart{
+        position:absolute;
+        top:290px
+    }
+    .outSide{
+    
+        padding-top: 50px !important
+        }
+}
+@media (min-width : 500px) and (max-width:775px){
+    .outSide{
+   
+        padding:50px 15px !important
+        }
+        
+}
+@media (min-width :765px) {
+    .myAddressBook{
+        position:initial;
+       
+    
+    }
+    .myCart{
+        position:initial;
+       
+    }
+}
+@media (min-width : 776px) and (max-width:819px){
+    .outSide{
+   
+        padding:50px 20px !important
+        }
+        
+}
+@media (min-width : 820px) {
+    .outSide{
+  
+        padding:50px 40px !important
+        }
+        
+}
+@media (min-width : 1000px) {
+    .outSide{
+  
+        padding: 50px 60px !important;
+        }
+        
+}
+@media (min-width : 1130px) {
+    .outSide{
+        padding: 50px 100px !important;
+        }
+    
+}
+@media (min-width : 1200px) {
+    .outSide{
+  
+        padding: 50px 150px !important;
+        }
+        
+}
