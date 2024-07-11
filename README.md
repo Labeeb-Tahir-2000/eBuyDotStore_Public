@@ -1,4 +1,4 @@
-# **Ths Repository is a copy of original and 3 years old private Repository for Public View**
+
 # **eBuydotstore**  
 eBuy.store is an ecommerce system subjected to targeted online customers, eBuy.store is intended to serve the purpose of intelligent online shopping from catalog to delivery. Customers will be provided products matching their interests regarding most fundamental features including trends, sales and seasons. With the help of intelligent bots system will provide automation support to the customer.
 # **Requirements**
